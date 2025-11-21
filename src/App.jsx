@@ -92,8 +92,8 @@ function App() {
       {/* Hero Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl md:text-6xl font-bold mb-6">Learning Path</h2>
-          <p className="text-gray-400 text-lg">
+          <h2 className="text-4xl text-gray-400 md:text-6xl font-bold mb-6">Learning Path</h2>
+          <p className="text-gray-200 text-sm">
             Follow our proven step-by-step journey from beginner to job-ready
             developer
           </p>
@@ -118,8 +118,8 @@ function App() {
 
                   {/* Content Card */}
                   <div className="flex-1 bg-gradient-to-br from-gray-900 to-gray-800 rounded-lg p-8 border border-gray-700 hover:border-gray-600 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10">
-                    <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
-                    <p className="text-gray-400 leading-relaxed">
+                    <h3 className="text-2xl text-gray-300 font-bold mb-4">{step.title}</h3>
+                    <p className="text-gray-200 text-sm leading-relaxed">
                       {step.description}
                     </p>
                   </div>
